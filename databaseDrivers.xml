@@ -19,8 +19,10 @@
       <option name="auto-commit" value="false" />
     </driver>
     <driver id="derby.embedded">
-      <artifact name="Apache Derby" use="true" />
+      <artifact name="Apache Derby" use="true" version="10.14.1.0" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
     </driver>
     <driver id="sybase.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
